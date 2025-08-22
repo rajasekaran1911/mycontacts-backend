@@ -1,4 +1,5 @@
 About the Project
+
 This project is a Contact Management Application built using Node.js, Express.js, and MongoDB. It provides a secure backend API for managing user accounts and their personal contacts.
 
 🔹 Key Features:
