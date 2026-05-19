@@ -12,14 +12,17 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "axios": "^1.16.1",
     "bcrypt": "^6.0.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "express-async-handler": "^1.2.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.17.1"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.0",
+    "react-router-dom": "^7.15.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.14"
   }
 }
