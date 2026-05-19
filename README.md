@@ -1,25 +1,122 @@
-About the Project
+Contacts Management MERN Application
 
-This project is a Contact Management Application built using Node.js, Express.js, and MongoDB. It provides a secure backend API for managing user accounts and their personal contacts.
+A full-stack Contacts Management Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+The application provides secure user authentication and allows users to manage their personal contacts through a modern React frontend and RESTful backend APIs.
 
-🔹 Key Features:
 
-👤 User Authentication & Authorization – Secure login & registration using JWT and bcrypt for password hashing.
+🚀 Features
 
-📇 Contact Management – Create, Read, Update, and Delete (CRUD) operations for personal contacts.
+🔐 Authentication & Authorization
 
-🔒 Data Protection – Contacts are user-specific, ensuring that only the owner can access and manage them.
+* User Registration
+* User Login
+* JWT-based Authentication
+* Password Hashing using bcrypt
+* Protected Routes & APIs
 
-⚡ Error Handling & Validation – Proper validation for required fields and structured error responses.
+📇 Contact Management
 
-🛠️ Environment Configurations – Uses .env for sensitive configurations like PORT and ACCESS_TOKEN_SECRET.
+* Create Contacts
+* View Contacts
+* Update Contacts
+* Delete Contacts
+* User-specific contact access
 
-🔹 Tech Stack:
+🎨 Frontend Features
 
-Backend: Node.js, Express.js
+* React.js frontend using Vite
+* Responsive UI
+* Navigation using React Router
+* Axios API integration
+* JWT token storage using localStorage
 
-Database: MongoDB (Mongoose ODM)
+⚡ Backend Features
 
-Authentication: JWT, bcrypt
+* RESTful API architecture
+* MongoDB database integration
+* Mongoose ODM
+* Middleware-based validation
+* Centralized error handling
+* Async request handling
 
-Middleware: Express Async Handler, Custom Validation & Error Handling
+
+🛠️ Tech Stack
+
+Frontend
+
+* React.js
+* Vite
+* Axios
+* React Router DOM
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB
+* Mongoose
+
+Authentication & Security
+
+* JWT (JSON Web Tokens)
+* bcrypt
+
+Middleware
+
+* express-async-handler
+* Custom Error Handler
+* Token Validation Middleware
+
+
+User Routes
+
+| Method | Endpoint              | Description      |
+| ------ | --------------------- | ---------------- |
+| POST   | `/api/users/register` | Register User    |
+| POST   | `/api/users/login`    | Login User       |
+| GET    | `/api/users/current`  | Get Current User |
+
+
+Contact Routes
+
+| Method | Endpoint            | Description        |
+| ------ | ------------------- | ------------------ |
+| GET    | `/api/contacts`     | Get All Contacts   |
+| POST   | `/api/contacts`     | Create Contact     |
+| GET    | `/api/contacts/:id` | Get Single Contact |
+| PUT    | `/api/contacts/:id` | Update Contact     |
+| DELETE | `/api/contacts/:id` | Delete Contact     |
+
+
+🔒 Security Features
+
+* Password hashing using bcrypt
+* JWT token authentication
+* Protected APIs
+* User-specific data access
+* Environment variable protection
+
+
+📸 Future Improvements
+
+* Edit Contact UI
+* Search & Filter Contacts
+* Pagination
+* Profile Management
+* Dark Mode
+* Docker Deployment
+* Cloud Deployment (Render + Netlify)
+
+👨‍💻 Author
+
+Rajasekaran J B
+
+* Email: [jbrajasekaran@gmail.com](mailto:jbrajasekaran@gmail.com)
+* LinkedIn: [www.linkedin.com/in/rajasekaran-j-b](http://www.linkedin.com/in/rajasekaran-j-b)
+
+⭐ If you like this project
+
+Give this repository a star on GitHub ⭐
